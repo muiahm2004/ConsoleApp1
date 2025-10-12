@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-public class ConversionApp
+public class assignment03
 {
 	private static int lastChoice = 0;
 

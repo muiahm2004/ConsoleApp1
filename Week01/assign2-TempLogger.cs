@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace assignment2
-	{
+namespace assignment02
+{
 	class Program
 	{
 		static void Main(string[] args)
@@ -43,21 +43,21 @@ namespace assignment2
 			int min = temps[0];
 			int max = temps[0];
 
-		
+
 			long sum = 0;
 			foreach (int temp in temps)
 			{
-				
+
 				if (temp < min)
 				{
 					min = temp;
 				}
-				
+
 				if (temp > max)
 				{
 					max = temp;
 				}
-				
+
 				sum += temp;
 			}
 			double avg = (double)sum / n;
